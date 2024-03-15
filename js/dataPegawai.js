@@ -5,8 +5,8 @@ function dataPerson() {
     let hobby = form.hobby.value;
   
     let input = "Perkenalkan nama saya " + nama + "<br> Pekerjaan: " + pekerjaan + "<br> Hobby: " + hobby;
-    let hasil = (nama && pekerjaan && hobi != '') ? input : "Tolong isi semua data";
+    let no_input = "Maaf Tolong Isi Semua Data";
+    let hasil = (nama && pekerjaan && hobby != '') ? input : no_input;
   
     document.getElementById("hasil").innerHTML = hasil;
-  }
-  
+}
